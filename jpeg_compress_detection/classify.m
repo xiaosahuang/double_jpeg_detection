@@ -22,5 +22,5 @@ svmStruct = svmtrain(X(P.training,:),Y(P.training));
 C = svmclassify(svmStruct,X(P.test,:));
 corRate = sum(Y(P.test) == C)/P.TestSize;
 disp(['corrate rate is: ' num2str(corRate)]);
-%shishi
+%shishihaaaaaaaaaaaa
 end
